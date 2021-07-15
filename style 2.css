@@ -1,0 +1,89 @@
+.déco {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: auto;
+  padding: 40px 200px;
+}
+
+header {
+  padding: 5px 25px;
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+.navbar h1 {
+  display: flex;
+  justify-content: center;
+  color: salmon;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+}
+.navbar h2 {
+  display: flex;
+  justify-content: center;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-size: 50px;
+  color: lightslategrey;
+}
+.hi {
+  text-align: center;
+}
+
+.text-center {
+  color: lightslategrey;
+}
+.btn-plus {
+  background-color: salmon;
+  color: white;
+  border-radius: 5px;
+  border-color: salmon;
+}
+.btn-minus {
+  background-color: salmon;
+  color: white;
+  border-radius: 5px;
+  border-color: salmon;
+}
+.home {
+  text-align: center;
+}
+.chiffre {
+  display: inline-block;
+  margin: 0% 42%;
+}
+.mb-4 h2 {
+  color: lightslategrey;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+}
+.he {
+  border-color: lightslategrey;
+}
+
+.btn-delete i {
+  background-color: white;
+  border-color: white;
+  font-size: 20px;
+}
+.btn {
+  background-color: white;
+  border-color: white;
+  font-size: 10px;
+}
+
+.tag i {
+  font-size: 20px;
+  transition: 0.4s;
+}
+.tag:hover i {
+  color: salmon;
+}
+.fas {
+  color: salmon;
+  transition: 0.4s;
+}
+.button {
+  display: flex;
+  justify-content:space-around;
+  padding: 0px 90px;
+}
